@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <div>
+        <form action="">
+            <fieldset>
+                <legend>Fale conosco</legend>
+                <label for="nome">nome:</label>
+                <input id="nome" name="nome" type="text">
+
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email">
+
+                <label for="assunto">Assunto</label>
+                <select name="assunto" id="assunto">
+                    <option value="feedback">Retorno sobre o projeto</option>
+                    <option value="sujest">Sujestão para o projeto</option>
+                    <option value="nem-project">Novo Projeto</option>
+                    <option value="mensagem">Uma mensagem</option>
+                    <option value=""></option>
+                </select>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="82" rows="20"></textarea>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

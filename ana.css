@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+align-items: center;
+}
+
+h1{
+    background-color: red;
+}
+
+#h11{
+    background-color: black;
+    color: red;
+}
+
+#h111{
+    background-color: black;
+    color: rgb(255, 1, 1);
+}
+.img{
+    width: 500px;
+}
+.imgg{
+    width: 500px;
+}
+
+#h1111{
+    background-color: black;
+    color: red;
+}
+
+.form{
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    margin: 40px;
+    gap: 10px;
+}
